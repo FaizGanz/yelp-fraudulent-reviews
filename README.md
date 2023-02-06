@@ -8,3 +8,5 @@ The traditional models chosen are: logistic regression, naive bayes, and random 
 For the transformer based classifier was built by importing the already pretrained BERT backbone layers from the HuggingFace library (bert-base-uncased). The classifier is composed of two linear layers.
 
 The data has been downsampled to account for class imbalance.
+
+Achieved 89.10% test accuracy with our transformer based model.
